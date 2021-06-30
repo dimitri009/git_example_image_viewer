@@ -11,6 +11,7 @@ bool BitmapImage::load(std::string name) {
         // load image file
         // decompress into buffer
         // more code to handle pixel depth and channels
+        // more code to handle the PNG type
         return true;
     }
     return false;
