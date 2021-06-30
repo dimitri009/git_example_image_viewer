@@ -20,3 +20,13 @@ bool BitmapImage::load(std::string name) {
 BitmapImage::~BitmapImage() {
     delete[] buffer;
 }
+
+void BitmapImage::resize(int width, int heigth) {
+    if (width>0)
+        this->width= width;
+    if (heigth>0)
+        this->height=heigth;
+    // resize the bitmap
+
+}
+
